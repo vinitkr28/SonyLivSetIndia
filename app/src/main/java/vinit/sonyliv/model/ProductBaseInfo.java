@@ -6,13 +6,13 @@ import com.google.gson.annotations.SerializedName;
 public class ProductBaseInfo {
     @SerializedName("productBaseInfoV1")
     @Expose
-    private vinit.setindia.model.Product product;
+    private Product product;
 
-    public vinit.setindia.model.Product getProduct() {
+    public Product getProduct() {
         return product;
     }
 
-    public void setProduct(vinit.setindia.model.Product product) {
+    public void setProduct(Product product) {
         this.product = product;
     }
 }
