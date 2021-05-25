@@ -10,13 +10,13 @@ import java.util.List;
 public class ProductWrapper {
     @SerializedName("products")
     @Expose
-    private List<vinit.setindia.model.ProductBaseInfo> products = null;
+    private List<ProductBaseInfo> products = null;
 
-    public List<vinit.setindia.model.ProductBaseInfo> getProducts() {
+    public List<ProductBaseInfo> getProducts() {
         return products;
     }
 
-    public void setProducts(List<vinit.setindia.model.ProductBaseInfo> products) {
+    public void setProducts(List<ProductBaseInfo> products) {
         this.products = products;
     }
 }
