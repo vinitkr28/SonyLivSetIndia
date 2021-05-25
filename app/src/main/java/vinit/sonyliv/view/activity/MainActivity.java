@@ -1,8 +1,10 @@
-package vinit.sonyliv;
+package vinit.sonyliv.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import vinit.sonyliv.R;
 
 public class MainActivity extends AppCompatActivity {
 
